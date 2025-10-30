@@ -1,0 +1,14 @@
+{
+  "name": "clarity-catalyst",
+  "version": "1.0.0",
+  "description": "Online tuition platform - Clarity Catalyst",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 5000"
+  },
+  "author": "Anushna",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

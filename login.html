@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Clarity Catalyst</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <header class="header">
+            <h1 class="head">Clarity Catalyst</h1>
+            <nav>
+                <a href="index.html">Home</a>
+               <a href="register.html">Register</a>
+                
+            </nav>
+        </header>
+<!--login/sigin-->
+        <main>
+            <h2 style="text-align: center; font-size: 40px;" >Login</h2>
+            <form id="authform">
+                Username:<input type="text" id="loginusername" placeholder="Enter Username">
+                Password:<input type="password" id="loginpassword" placeholder="Enter password">
+                <select id="role">
+                    <option value="" disabled selected>--Select Role--</option>
+                    <option value="student">Student</option>
+                    <option value="tutor">Tutor</option>
+                </select>
+                <button type="submit">login</button>
+                <p>Not registered?<a href="register.html"> Register here</a></p>
+                <p id="loginMsg"></p>
+            </form>
+            
+        </main>
+        <footer style="text-align: center;">
+            <p>&copy; 2025 Clarity catalyst</p>
+        </footer>
+        <script src="script1.js"></script>
+    </body>
+<html>

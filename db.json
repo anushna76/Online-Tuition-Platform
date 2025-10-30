@@ -1,0 +1,16 @@
+{
+  "users": [
+    { "id": 1, "username": "sohana", "password": "1234", "role": "tutor" },
+    { "id": 2, "username": "madhuri", "password": "1234", "role": "tutor" },
+    { "id": 3, "username": "student1", "password": "1234", "role": "student" }
+  ],
+  "tutors": [
+    { "id": 1, "name": "Sohana Reddy", "subject": "English", "contact": "sohana@gmail.com" },
+    { "id": 2, "name": "Madhuri Priya", "subject": "Mathematics", "contact": "madhuri@gmail.com" },
+    { "id": 3, "name": "Teju", "subject": "Science", "contact": "teju@gmail.com" },
+    { "id": 4, "name": "Rishitha", "subject": "Social", "contact": "rishitha@gmail.com" },
+    { "id": 5, "name": "Santhoshi", "subject": "FrontEnd", "contact": "santhoshi@gmail.com" },
+    { "id": 6, "name": "Akshaya", "subject": "BackEnd", "contact": "akshaya@gmail.com" }
+  ],
+  "bookings": []
+}
